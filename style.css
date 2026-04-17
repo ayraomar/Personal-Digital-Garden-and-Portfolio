@@ -139,6 +139,7 @@ a:focus {
   display: grid;
   grid-gap: var(--margin);
   grid-template: "header header" auto "leftSidebar main" auto "footer footer" auto / var(--sidebar-width) auto;
+  /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
 }
 
 main {
@@ -218,6 +219,8 @@ aside {
   margin-top: 10px;
 }
 
+/* Sidebar Blockquote: */
+
 .sidebar-section blockquote {
   background: rgba(245, 255, 250, 0);
   padding: 15px;
@@ -233,6 +236,8 @@ aside {
 .sidebar-section blockquote > *:last-child {
   margin-bottom: 0;
 }
+
+/* Site Button: */
 
 .site-button {
   display: flex;
@@ -358,6 +363,22 @@ header nav ul li:last-child > a {
   padding-right: 0;
 }
 
+/* Hide the filled heart by default */
+.heart-filled {
+    display: none;
+}
+
+/* When the parent link has the active class, swap them! */
+.nav-active .heart-hollow {
+    display: none;
+}
+
+.nav-active .heart-filled {
+    display: inline;
+    color: #D63384;
+}
+
+/* Subnavigation (Drop-Down): */
 
 header nav ul ul {
   background: var(--content-background-color);
@@ -476,6 +497,7 @@ main hr {
   margin: 1.5em 0;
 }
 
+/* HEADINGS: */
 
 main h1,
 main h2,
@@ -521,6 +543,7 @@ main h6 {
   font-size: 1em;
 }
 
+/* COLUMNS: */
 
 .two-columns {
   display: flex;
@@ -574,6 +597,7 @@ main h6 {
 /* -------------------------------------------------------- */
 /* ACCESSIBILITY */
 /* -------------------------------------------------------- */
+
 
 #skip-to-content-link {
   position: fixed;
@@ -713,7 +737,7 @@ main h6 {
 
 .tag {
   display: inline-block;
-  background: #ffe4f2;
+  background: #ffe4f2;   /* soft pink */
   color: #000;
   padding: 2px 8px;
   margin: 3px;
