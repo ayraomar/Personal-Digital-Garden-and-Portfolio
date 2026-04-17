@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Change your site title: (It is shown in the tab) -->
+    <title>♡ Ayra Omar ♡</title>
+
+    <!-- Change your site description: (It is shown in Google results) -->
+    <meta content="My personal portfolio!" name="description" />
+
+    <!-- Setting character encoding and viewport size. Do not remove. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FavIcon (small image in tab), change to any image you want: -->
+  <link href="icon.jpeg" rel="icon" type="image/x-icon" />
+
+    <!-- CSS: -->
+    <!-- You will have to change this to "../style.css" if this HTML file is in a subfolder, to "../../style.css" if this HTML file is in 2 subfolders, etc. -->
+    <link href="style.css" rel="stylesheet" />
+    
+
+    <script>
+      // Template generated with petrapixel's layout generator.
+      // (Please do not remove this credit.)
+      console.log("%cTemplate generated with petrapixel's layout generator: https://petrapixel.neocities.org/coding/layout-generator", "font-size: 14pt; color: #922a45; background: #ffd3ef");
+    </script>
+  </head>
+  <body>
+    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
+
+    <div class="layout">
+  
+      <!-- =============================================== -->
+      <!-- HEADER -->
+      <!-- =============================================== -->
+
+      <header>
+
+        <div class="header-content">
+	        <div class="header-title">♡ Ayra Omar ♡</div>
+	        
+	        <!-- NAVIGATION -->
+	        <nav>
+  <ul>
+    <li><a href="index.html">Home ♡</a></li>
+    <li><a href="about.html">About ♡</a></li>
+    <li><a href="ongoing.html">Ongoing Projects ♡</a></li>
+    <li><a href="completed.html">Completed Projects ♡</a></li>
+    <li><a href="diary.html">Diary ♡</a></li>
+  </ul>
+</nav>
+        	
+        </div>
+      </header>
+
+	  
+        
+      <!-- =============================================== -->
+      <!-- LEFT SIDEBAR -->
+      <!-- =============================================== -->
+
+     <body class="no-sidebar"></body>
+  
+      <main id="content"> <!-- Do NOT remove the ID here -->
+
+        
+
+        <!-- =============================================== -->
+        <!-- MAIN CONTENT -->
+        <!-- =============================================== -->
+
+
+        <section>
+          <h1 class="Home">
+            ♡ Home ♡
+              <img src="Cute kawaii gif.gif" class ="card-gif">
+            </h1>
+          <p>
+           Welcome to my website! Here's where I experiment with HTML, CSS, and where I document my crashouts over programming projects lol. You can explore my ongoing projects, completed projects, or my diary where I share progress updates. I hope you like it <3</p>
+           <br>
+           <h2>Hall of Fame ✨</h2>
+
+<div class="home-projects">
+
+    <div class="card">
+      <h3>My Website</h3>
+      <p>The project I’m actively building and updating.</p>
+    </div>
+
+  <a href="dataStructuresProject.html" class="card-link">
+    <div class="card">
+      <h3>Automated Online Examination System</h3>
+      <p>This is still a work in progress, view at your own risk</p>
+    </div>
+  </a>
+  <a href="vehicleRentalSystem.html" class="card-link">
+    <div class="card">
+      <h3>Vehicle Rental System</h3>
+      <p>Here's an account of my work on a very interesting and fairly challenging project I completed with my friends</p>
+    </div>
+  </a>
+          <a href="SDAproject.html" class="card-link">
+          <div class="card">
+              <h3> Software Design and Analysis Semester Project</h3>
+<p>I'm currently trying my hand at Software Design</p>
+          </div>
+          </a>
+ <a href="AIProject.html" class="card-link">
+          <div class="card">
+              <h3> Smart Personal Study Assistant</h3>
+<p>Let's see how fun AI can actually be</p>
+          </div>
+          </a>
+</div>
+        </section>
+      </main>
+
+
+      <!-- =============================================== -->
+      <!-- FOOTER -->
+      <!-- =============================================== -->
+
+       <footer>
+  <div class="footer-container">
+    <img src="petals.gif" class="footer-gif">
+    <div>Thank you for visiting! Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's layout generator</a>.</div>
+  </div>
+</footer>
+    <!-- Closing .layout: -->
+    </div>
+
+
+    <!-- Add any additional Javascript code (<script></script>) here. -->
+     <audio id="clickSound" src="click.mp3"></audio>
+     <script>
+  const clickSound = document.getElementById("clickSound");
+
+  const clickableElements = document.querySelectorAll("a, button");
+
+  clickableElements.forEach(el => {
+    el.addEventListener("click", () => {
+      clickSound.currentTime = 0;
+      clickSound.play();
+    });
+  });
+</script>
+       <audio id="hoverSound" src="hover.mp3"></audio>
+     <script>
+  const sound = document.getElementById("hoverSound");
+
+  const links = document.querySelectorAll("nav a");
+
+  links.forEach(link => {
+    link.addEventListener("mouseenter", () => {
+      sound.currentTime = 0;
+      sound.play();
+    });
+  });
+</script>
+  </body>
+</html>

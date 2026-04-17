@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Change your site title: (It is shown in the tab) -->
+    <title>♡ Ayra Omar ♡</title>
+
+    <!-- Change your site description: (It is shown in Google results) -->
+    <meta content="My personal portfolio!" name="description" />
+
+    <!-- Setting character encoding and viewport size. Do not remove. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FavIcon (small image in tab), change to any image you want: -->
+  <link href="icon.jpeg" rel="icon" type="image/x-icon" />
+
+    <!-- CSS: -->
+    <!-- You will have to change this to "../style.css" if this HTML file is in a subfolder, to "../../style.css" if this HTML file is in 2 subfolders, etc. -->
+    <link href="style.css" rel="stylesheet" />
+    
+
+    <script>
+      // Template generated with petrapixel's layout generator.
+      // (Please do not remove this credit.)
+      console.log("%cTemplate generated with petrapixel's layout generator: https://petrapixel.neocities.org/coding/layout-generator", "font-size: 14pt; color: #922a45; background: #ffd3ef");
+    </script>
+  </head>
+  <body>
+    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
+
+    <div class="layout">
+  
+      <!-- =============================================== -->
+      <!-- HEADER -->
+      <!-- =============================================== -->
+
+      <header>
+
+        <div class="header-content">
+	        <div class="header-title">♡ Ayra Omar ♡</div>
+	        
+	        <!-- NAVIGATION -->
+	        <nav>
+  <ul>
+    <li><a href="index.html">Home ♡</a></li>
+    <li><a href="about.html">About ♡</a></li>
+    <li><a href="ongoing.html">Ongoing Projects ♡</a></li>
+    <li><a href="completed.html">Completed Projects ♡</a></li>
+    <li><a href="diary.html">Diary ♡</a></li>
+  </ul>
+</nav>
+        	
+        </div>
+      </header>
+
+	  
+        
+      <!-- =============================================== -->
+      <!-- LEFT SIDEBAR -->
+      <!-- =============================================== -->
+
+     <body class="no-sidebar"></body>
+  
+      <main id="content"> <!-- Do NOT remove the ID here -->
+
+        
+
+        <!-- =============================================== -->
+        <!-- MAIN CONTENT -->
+        <!-- =============================================== -->
+
+
+        <section>
+          <h1 class="Home">
+            ♡ Vehicle Rental System ♡
+              <img src="Cute kawaii gif.gif" class ="card-gif">
+            </h1>
+          <p>
+         As a part of my OOP course, that's Object Oriented Programming, we had to demonstrate our newfound skills by building something that made use of OOP principles. My friends and I decided we'd work on a Vehicle Rental System.</p>
+         <p>It seemed like a model that was applicable enough in real life while still being manageable on a small scale.</p>
+          <p>This project began as a part of my course work. We were told to build a scale model of a real life application. One that would showcase our grip on the concepts we'd learned in the course. We were also encouraged to explore different coding practices and libraries to facilitate our system integration.</p>
+          <p>I took on the role of system integrator, coordinator, and programmer. My friends, and group members, had all chosen their parts in the project as well; including what part of the system they'd like to bring to life through coding.</P>
+            <p>It was difficult to say the least. Although we had worked on assignments and lab tasks and had become familiar with class structures and relationships, we had not yet built a project of this scale using these concepts. So mapping out what exactly we wanted to do and how we were going to do it was a daunting task. Luckily, I had my friend, Baha, on my side and we took to making an outline immediately. After that, it was just a matter of choosing what part of the project each of us wanted to work on.</p>
+            <p>Building and coding the project wasn't as difficult as combining each individual part was. I had taken on the role of system integrator so I was in charge of making sure that everyone was on track and had completed their work on time. Then, I had to make small changes to everyone's code to ensure that the names of methods and classes matched so that the different classes were able to interact with each other seamlessly. My friend, Rahmeen, was a huge help to me at this point as she took on some of this load and ensured that we weren't missing any crucial elements before we handed the project in for submission and evaluation.</p>
+            <p>Eliza was an excellent help as well, she was generous enough to take on the file-handling portion of the project so that we'd have a record of our customers and vehicles. She also handled system testing along with Rahmeen which gave Baha and I enough room to work on our parts without having to micromanage everyone else.</p>
+            <p>Overall, I learned multiple priceless lessons that I am sure will enable me to do even better in the future.</p>
+            <p>I am looking forward to progress further!</p>
+        </section>
+      </main>
+
+
+      <!-- =============================================== -->
+      <!-- FOOTER -->
+      <!-- =============================================== -->
+
+       <footer>
+  <div class="footer-container">
+    <img src="petals.gif" class="footer-gif">
+    <div>Thank you for visiting! Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's layout generator</a>.</div>
+  </div>
+</footer>
+    <!-- Closing .layout: -->
+    </div>
+
+
+    <!-- Add any additional Javascript code (<script></script>) here. -->
+     <audio id="clickSound" src="click.mp3"></audio>
+     <script>
+  const clickSound = document.getElementById("clickSound");
+
+  const clickableElements = document.querySelectorAll("a, button");
+
+  clickableElements.forEach(el => {
+    el.addEventListener("click", () => {
+      clickSound.currentTime = 0;
+      clickSound.play();
+    });
+  });
+</script>
+       <audio id="hoverSound" src="hover.mp3"></audio>
+     <script>
+  const sound = document.getElementById("hoverSound");
+
+  const links = document.querySelectorAll("nav a");
+
+  links.forEach(link => {
+    link.addEventListener("mouseenter", () => {
+      sound.currentTime = 0;
+      sound.play();
+    });
+  });
+</script>
+  </body>
+</html>
