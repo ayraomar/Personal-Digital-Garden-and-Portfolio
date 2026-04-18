@@ -15,3 +15,5 @@ Welcome to my personal digital garden! This is a space where I document my journ
 
 ## 🔗 Live Site
 [Visit my portfolio here!](https://ayra-portfolio.netlify.app/)
+
+Built with care, coffee, and a lot of debugging. ✿
