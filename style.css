@@ -178,6 +178,12 @@ header {
   height: auto;
 }
 
+.header-text {
+  font-family: var(--heading-font);
+  font-size: 1em;
+  font-weight: bold;
+}
+
 /* -------------------------------------------------------- */
 /* SIDEBARS */
 /* -------------------------------------------------------- */
